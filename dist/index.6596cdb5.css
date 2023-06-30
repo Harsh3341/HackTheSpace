@@ -1,0 +1,122 @@
+.venue-section {
+  padding: 1rem 2rem;
+  display: block;
+}
+
+.venue-section-container {
+  position: relative;
+}
+
+.aconst6 {
+  z-index: -1;
+  animation: 3.2s linear infinite floatx;
+  position: absolute;
+  top: 50%;
+  left: 4%;
+}
+
+.aconst6 img {
+  opacity: .8;
+  width: 150px;
+  height: 150px;
+}
+
+.venue-section .venue-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  display: flex;
+}
+
+.venue-section h2 {
+  text-align: center;
+  color: var(--primary-blue);
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
+
+.venue-section p {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.venue-section img {
+  width: 100px;
+  height: 100px;
+}
+
+.venue-section .divider {
+  background-color: var(--secondary-blue);
+  height: 5px;
+  margin: 2rem 0;
+}
+
+.venue-section .map-wrapper {
+  margin: 0 auto 2rem;
+}
+
+.venue-section .map-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (width >= 1000px) {
+  .venue-section {
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    display: flex;
+  }
+
+  .venue-section .venue-wrapper {
+    align-items: flex-end;
+    width: 40%;
+  }
+
+  .venue-section .venue-wrapper .extra-info {
+    width: 75%;
+  }
+
+  .venue-section h2 {
+    text-align: right;
+    letter-spacing: .08em;
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+  }
+
+  .venue-section p {
+    text-align: right;
+    letter-spacing: .08em;
+    color: var(--white);
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  .venue-section .divider {
+    width: 5px;
+    height: 380px;
+  }
+
+  .venue-section .map-wrapper {
+    width: 40%;
+    margin: 0;
+  }
+}
+
+@media screen and (width >= 1700px) {
+  .venue-section .venue-wrapper .extra-info {
+    width: 65%;
+  }
+}
+
+@media screen and (width <= 1700px) {
+  .aconst6 img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.6596cdb5.css.map */

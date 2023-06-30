@@ -1,0 +1,237 @@
+#myCanvas {
+  z-index: -1;
+  width: 100%;
+  height: 2454px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.schedule-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  display: flex;
+  position: relative;
+}
+
+.aconst2 {
+  z-index: -1;
+  animation: 3.2s linear infinite floatx;
+  position: absolute;
+  bottom: 30%;
+  right: 0;
+}
+
+.aconst2 img {
+  opacity: 1;
+  height: 120px;
+}
+
+.schedule-section .container {
+  text-align: center;
+  scroll-behavior: smooth;
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(to right, #b741dd 47.2%, #7d00f2 90.1%) 1;
+  width: 40rem;
+  height: 500px;
+  margin: 2rem 0;
+  padding: 2rem;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.schedule-section .container::-webkit-scrollbar {
+  display: none;
+}
+
+.schedule-section .container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.schedule-section .schedule-title {
+  text-align: center;
+  text-shadow: 0px 0px 20px var(--primary-blue);
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+}
+
+.schedule-section h5 {
+  text-transform: uppercase;
+  text-shadow: 0px 0px 20px var(--primary-blue);
+}
+
+.schedule-section .schedule-container .time-container-left {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 40px 20px;
+  display: flex;
+}
+
+.schedule-section .schedule-container .time-container-left .time .time-text {
+  text-align: left;
+}
+
+.schedule-section .schedule-container .time-container-right {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 20px;
+  display: flex;
+}
+
+.schedule-section .schedule-container .time-container-right .time .time-text {
+  text-align: left;
+}
+
+.planet img {
+  width: 150px;
+  height: 150px;
+  animation: 7s infinite rotate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0);
+  }
+
+  50% {
+    transform: rotateZ(25deg);
+  }
+
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+.schedule-section .time-container-left .time {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+  display: flex;
+}
+
+.schedule-section .time-container-right .time {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 20px;
+  display: flex;
+}
+
+.time-text {
+  letter-spacing: .1em;
+  font-size: .9rem;
+}
+
+#Day2 h5 {
+  margin-bottom: 110px;
+}
+
+@media screen and (width <= 800px) {
+  #myCanvas {
+    width: 100%;
+    height: 1640px;
+  }
+
+  .schedule-section .schedule-title {
+    font-size: 1.2rem;
+  }
+
+  .schedule-section .container {
+    width: 80%;
+    height: 400px;
+  }
+
+  .schedule-section .schedule-container .time-container-left {
+    margin: 20px 10px;
+  }
+
+  .schedule-section .schedule-container .time-container-right {
+    margin: 0 10px;
+  }
+
+  .planet img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .time-text {
+    font-size: .8rem;
+  }
+
+  .aconst2 {
+    z-index: -1;
+    animation: 3.2s linear infinite floatx;
+    position: absolute;
+    top: -10%;
+    right: 0;
+  }
+
+  .aconst2 img {
+    opacity: 1;
+    height: 120px;
+  }
+
+  #Day2 h5 {
+    margin-bottom: 65px;
+  }
+}
+
+@media screen and (width <= 500px) {
+  #myCanvas {
+    width: 100%;
+    height: 1569px;
+  }
+
+  .schedule-section .schedule-title {
+    font-size: 1rem;
+  }
+
+  .schedule-section .container {
+    width: 90%;
+    height: 300px;
+  }
+
+  .schedule-section .schedule-container .time-container-left {
+    margin: 10px 5px;
+  }
+
+  .schedule-section .schedule-container .time-container-right {
+    margin: 0 5px;
+  }
+
+  .schedule-section .schedule-container .time-container-right .time {
+    align-items: flex-end;
+    margin-right: 10px;
+  }
+
+  .planet img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .time-text {
+    font-size: .7rem;
+  }
+
+  .schedule-section .schedule-container .time-container-right .time .time-text {
+    text-align: right;
+  }
+
+  #Day1 h5 {
+    margin-bottom: 53px;
+  }
+
+  #Day2 h5 {
+    margin-bottom: 60px;
+  }
+}
+
+/*# sourceMappingURL=index.8c25c371.css.map */

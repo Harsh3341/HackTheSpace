@@ -1,0 +1,2 @@
+const e=document.getElementById("open-mobile-nav"),s=document.getElementById("close-mobile-nav"),t=document.getElementById("mobile-nav-links");e.addEventListener("click",()=>{e.classList.remove("show"),e.classList.add("hidden"),s.classList.remove("hidden"),s.classList.add("show"),t.style.transform="translate(0%, 0)"}),s.addEventListener("click",()=>{s.classList.remove("show"),s.classList.add("hidden"),e.classList.remove("hidden"),e.classList.add("show"),t.style.transform="translate(100%, 0)"});
+//# sourceMappingURL=index.b19f2430.js.map

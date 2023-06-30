@@ -1,0 +1,119 @@
+.sponser-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  display: flex;
+  position: relative;
+}
+
+.aconst7 {
+  z-index: -1;
+  animation: 3.2s linear infinite floatx;
+  display: none;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.aconst7 img {
+  opacity: .8;
+  width: 120px;
+  height: 120px;
+}
+
+.sponser-section .sponser-container {
+  text-align: center;
+}
+
+.sponser-section .sponser {
+  margin: 3rem 0;
+}
+
+.sponser-section .sponser h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+
+.sponser-section .sponser .wrapper .card {
+  background: none;
+  border-radius: 11px;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.sponser-section .sponser.inkind .wrapper .card:after, .sponser-section .sponser.silver .wrapper .card:after, .sponser-section .sponser.bronze .wrapper .card:after {
+  content: "";
+  z-index: -1;
+  border-radius: 11px;
+  width: 105%;
+  height: 110%;
+  position: absolute;
+  top: -5px;
+}
+
+.sponser-section .sponser.diamond .wrapper .card:after {
+  background: linear-gradient(60deg, #b7f1fd, #d0f8ff, #b7f1fd, #dffcff) 0 0 / 300% 300%;
+  animation: 3s infinite alternate animatedgradient;
+  box-shadow: 0 0 15px #b7f1fd;
+}
+
+.sponser-section .sponser.gold .wrapper .card:after {
+  background: linear-gradient(60deg, #ebd197, #b48811, #a2790d, #bb9b49) 0 0 / 300% 300%;
+  animation: 3s infinite alternate animatedgradient;
+  box-shadow: 0 0 15px #bb9b49;
+}
+
+.sponser-section .sponser.silver .wrapper .card:after {
+  background: linear-gradient(60deg, #70706f66, #7d7d7a66, #8e8d8d66, #a1a2a366, #b3b6b566, #bec0c266) 0 0 / 300% 300%;
+  animation: 3s infinite alternate animatedgradient;
+}
+
+.sponser-section .sponser.bronze .wrapper .card:after {
+  background: linear-gradient(60deg, #804a004d, #895e1a4d, #9c7a3c4d, #b08d574d) 0 0 / 300% 300%;
+  animation: 3s infinite alternate animatedgradient;
+}
+
+.sponser-section .sponser.inkind .wrapper .card:after {
+  background: linear-gradient(60deg, #70706f1a, #7d7d7a1a, #8e8d8d1a, #a1a2a31a, #b3b6b51a, #bec0c21a);
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
+}
+
+.sponser-section .sponser .pic {
+  width: 150px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.sponser-section .sponser .pic img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.sponser-section .sponser .wrapper {
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.2a5a3f8d.css.map */
