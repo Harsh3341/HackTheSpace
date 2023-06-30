@@ -1,0 +1,22 @@
+{
+  "name": "hackthespace---copy",
+  "version": "1.0.0",
+  "description": "todo:",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harsh3341/HackTheSpace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harsh3341/HackTheSpace/issues"
+  },
+  "homepage": "https://github.com/Harsh3341/HackTheSpace#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
